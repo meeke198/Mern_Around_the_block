@@ -37,4 +37,4 @@ app.use("/api/events", events);
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 //37-38: Before we can run the server, we need to tell our app which port to run on
-//deploying our app to Heroku requires run our server on process.env.PORT
+//deploying our app to Heroku requires run our server on process.env.PORT.
